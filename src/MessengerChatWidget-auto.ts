@@ -1,3 +1,5 @@
 import MessengerChatWidget from './MessengerChatWidget';
 
-new MessengerChatWidget({});
+const element = document.createElement('div');
+document.body.appendChild(element);
+new MessengerChatWidget(element, {});

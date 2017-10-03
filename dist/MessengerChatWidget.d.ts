@@ -1,5 +1,5 @@
 import Messenger from './Messenger';
 export default class MessengerChatWidget extends Messenger {
-    constructor(options: any);
+    constructor(element: HTMLElement, options: any);
     onHeaderClick(event: Event): void;
 }

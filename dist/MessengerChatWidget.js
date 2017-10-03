@@ -13,12 +13,9 @@ exports.__esModule = true;
 var Messenger_1 = require("./Messenger");
 var MessengerChatWidget = /** @class */ (function (_super) {
     __extends(MessengerChatWidget, _super);
-    function MessengerChatWidget(options) {
-        var _this = this;
-        var element = document.createElement('div');
-        _this = _super.call(this, element, options) || this;
+    function MessengerChatWidget(element, options) {
+        var _this = _super.call(this, element, options) || this;
         element.classList.add('messenger-ui--chat-widget');
-        document.body.appendChild(element);
         _this.header.addEventListener('click', _this.onHeaderClick);
         return _this;
     }

@@ -1,1 +1,1 @@
-{"version":3,"file":"MessengerChatWidget-auto.js","sourceRoot":"","sources":["../src/MessengerChatWidget-auto.ts"],"names":[],"mappings":";;AAAA,6DAAwD;AAExD,IAAI,gCAAmB,CAAC,EAAE,CAAC,CAAC"}
+{"version":3,"file":"MessengerChatWidget-auto.js","sourceRoot":"","sources":["../src/MessengerChatWidget-auto.ts"],"names":[],"mappings":";;AAAA,6DAAwD;AAExD,IAAM,OAAO,GAAG,QAAQ,CAAC,aAAa,CAAC,KAAK,CAAC,CAAC;AAC9C,QAAQ,CAAC,IAAI,CAAC,WAAW,CAAC,OAAO,CAAC,CAAC;AACnC,IAAI,gCAAmB,CAAC,OAAO,EAAE,EAAE,CAAC,CAAC"}
