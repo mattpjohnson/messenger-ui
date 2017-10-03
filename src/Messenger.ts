@@ -21,6 +21,10 @@ export default class Messenger {
 
     this.element.classList.add('messenger-ui');
     this.messageListArea.classList.add('messenger-ui__message-list');
+
+    // Add submit event listener
+    const form = this.inputArea.querySelector('form');
+    form.addEventListener('submit', event => this.onSubmit(event));
   }
 
   private createHeader() {
@@ -38,11 +42,6 @@ export default class Messenger {
   private createInputArea() {
     const inputArea = document.createElement('div');
     this.element.appendChild(inputArea);
-
-    // Add submit event listener
-    const form = inputArea.querySelector('form');
-    form.addEventListener('submit', event => this.onSubmit(event));
-
     return inputArea;
   }
 
