@@ -20,7 +20,7 @@ var MessengerChatWidget = /** @class */ (function (_super) {
         return _this;
     }
     MessengerChatWidget.prototype.onHeaderClick = function (event) {
-        this.header.classList.toggle('messenger-ui--is-open');
+        this.element.classList.toggle('messenger-ui--is-open');
     };
     return MessengerChatWidget;
 }(Messenger_1["default"]));

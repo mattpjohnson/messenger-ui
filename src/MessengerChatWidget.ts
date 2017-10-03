@@ -10,6 +10,6 @@ export default class MessengerChatWidget extends Messenger {
   }
 
   onHeaderClick(event: Event) {
-    this.header.classList.toggle('messenger-ui--is-open');
+    this.element.classList.toggle('messenger-ui--is-open');
   }
 }
